@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patches xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1">
+  <Files Name="assetbundleconfig" Url="http://127.0.0.1/hotfix/0.1/1/assetbundleconfig" Platform="StandaloneWindows64" MD5="d67d665c33991cdfa46ffdbb5b986c2b" Size="2.47851563" />
+  <Files Name="hotfix" Url="http://127.0.0.1/hotfix/0.1/1/hotfix" Platform="StandaloneWindows64" MD5="6277c4e5581a17265fd663906bbc9c32" Size="53.5097656" />
+  <Files Name="StandaloneWindows64" Url="http://127.0.0.1/hotfix/0.1/1/StandaloneWindows64" Platform="StandaloneWindows64" MD5="796f7b702db7528bf10a77608c83d2fc" Size="1.94726563" />
+</Patches>
