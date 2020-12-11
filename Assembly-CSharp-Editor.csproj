@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{92F669F3-5F50-ADBB-3D93-9C04C956FEEA}</ProjectGuid>
+    <ProjectGuid>{540D36C9-81A4-AAD5-19D8-13AE3A0072CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -76,37 +76,37 @@
     <Compile Include="Assets\RealFram\Editor\Resource\OfflineDataEditor.cs" />
     <Compile Include="Assets\RealFram\Editor\WindowsFile.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -304,22 +304,22 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntim.Mono.Cecil">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/Plugins/protobuf-net.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/Plugins/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/RealFram/FramePlug/Plugins/Editor/EPPlus.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/RealFram/FramePlug/Plugins/Editor/EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -684,19 +684,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{1745125A-8C3C-0129-07E1-866ABDAFC63E}</Project>
+      <Project>{41FF361D-E7B7-F038-9CE3-814B3722AE6A}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Resource.csproj">
-      <Project>{4426D844-02BB-E955-4674-D70FFAE4C283}</Project>
+      <Project>{6DEB4EB9-C908-0B5F-99E5-2BE5D54BD0E0}</Project>
       <Name>Resource</Name>
     </ProjectReference>
     <ProjectReference Include="Base.csproj">
-      <Project>{C5E0D96B-7FC1-53C1-FD0A-C3E0B16BB1FA}</Project>
+      <Project>{63B01C1C-E56B-8264-0C32-ACE3D28EFE57}</Project>
       <Name>Base</Name>
     </ProjectReference>
     <ProjectReference Include="ILRuntime.csproj">
-      <Project>{41CADD56-42FF-CE1A-5668-FF3B4794C445}</Project>
+      <Project>{B2B632A9-87FA-10EE-3947-D54509F17F90}</Project>
       <Name>ILRuntime</Name>
     </ProjectReference>
   </ItemGroup>

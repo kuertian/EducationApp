@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4426D844-02BB-E955-4674-D70FFAE4C283}</ProjectGuid>
+    <ProjectGuid>{6DEB4EB9-C908-0B5F-99E5-2BE5D54BD0E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Resource</AssemblyName>
@@ -82,10 +82,10 @@
     <Compile Include="Assets\RealFram\FramePlug\ResourceFrame\ResourceManager.cs" />
     <None Include="Assets\RealFram\FramePlug\ResourceFrame\Resource.asmdef" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -283,19 +283,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntim.Mono.Cecil">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/Plugins/protobuf-net.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/Plugins/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-      <HintPath>G:/My/Programmer/ILRuntimeProject/Assets/RealFram/FramePlug/Plugins/Editor/EPPlus.dll</HintPath>
+      <HintPath>G:/My/Programmer/EducationApp/Assets/RealFram/FramePlug/Plugins/Editor/EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -660,7 +660,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Base.csproj">
-      <Project>{C5E0D96B-7FC1-53C1-FD0A-C3E0B16BB1FA}</Project>
+      <Project>{63B01C1C-E56B-8264-0C32-ACE3D28EFE57}</Project>
       <Name>Base</Name>
     </ProjectReference>
   </ItemGroup>
