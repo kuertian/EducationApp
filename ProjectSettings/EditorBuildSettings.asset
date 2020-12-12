@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/GameData/Scenes/Menu.unity
     guid: d57689235f0f4844b8201f5acd7e4ad2
   - enabled: 0
-    path: Assets/Scenes/myTest.unity
+    path: Assets/Scenes/myTest/myTest.unity
     guid: 9bb56b5993ab865448ad6b5c3cd8a8a2
   m_configObjects: {}

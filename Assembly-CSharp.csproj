@@ -69,6 +69,10 @@
     <Compile Include="Assets\RealFram\FramePlug\ConifigFrame\ExcelBase.cs" />
     <Compile Include="Assets\RealFram\FramePlug\GameStart.cs" />
     <Compile Include="Assets\Scenes\Demo\Demo.cs" />
+    <Compile Include="Assets\Scenes\myTest\FScrollPage\FScrollItem.cs" />
+    <Compile Include="Assets\Scenes\myTest\FScrollPage\FScrollPage.cs" />
+    <Compile Include="Assets\Scenes\myTest\FScrollPage\IFScrollItem.cs" />
+    <Compile Include="Assets\Scenes\myTest\windowSet.cs" />
     <Compile Include="Assets\Scripts\Adapter\WindowAdapter.cs" />
     <Compile Include="Assets\Scripts\Data\BuffData.cs" />
     <Compile Include="Assets\Scripts\Data\MonsterData.cs" />
@@ -117,6 +121,7 @@
     <Compile Include="Assets\Scripts\Manager\ILRuntimeManager.cs" />
     <Compile Include="Assets\Scripts\Manager\TestClassBasesAdapter.cs" />
     <Compile Include="Assets\Scripts\UGUI\Item\CommonConfirm.cs" />
+    <Compile Include="Assets\Scripts\UGUI\MyTest\LanchPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Panel\DemoPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Panel\HotFixPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Panel\LoadingPanel.cs" />
