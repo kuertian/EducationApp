@@ -62,7 +62,7 @@ namespace HotFix_Project
             {
                 Sprite sp = obj as Sprite;
                 m_MainPanel.m_Test2.sprite = sp;
-                Debug.Log("图片2加载出来了~热更新2.0");
+                Debug.Log("图片2加载出来了~热更新2.0!!!!!");
             }
         }
 

@@ -36,7 +36,9 @@ namespace HotFix_Project
             //根据场景名字打开对应场景第一个界面
             if (m_SceneName == ConStr.MENUSCENE)
             {
-                UIManager.Instance.PopUpWnd(ConStr.MENUPANEL);
+                //UIManager.Instance.PopUpWnd(ConStr.MENUPANEL);
+                //UIManager.Instance.PopUpWnd(ConStr.LANDCHPANEL);
+                UIManager.Instance.PopUpWnd(ConStr.MAINPANEL);
             }
             UIManager.Instance.CloseWnd(ConStr.LOADINGPANEL);
         }

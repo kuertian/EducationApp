@@ -75,6 +75,8 @@
   <ItemGroup>
     <Compile Include="DemoUi.cs" />
     <Compile Include="LoadingUi.cs" />
+    <Compile Include="LanchUi.cs" />
+    <Compile Include="MainUi.cs" />
     <Compile Include="MenuUi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestClass.cs" />

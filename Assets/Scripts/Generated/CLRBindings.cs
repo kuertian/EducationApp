@@ -30,9 +30,13 @@ namespace ILRuntime.Runtime.Generated
             System_String_Binding.Register(app);
             Singleton_1_UIManager_Binding.Register(app);
             UIManager_Binding.Register(app);
-            MenuPanel_Binding.Register(app);
+            LanchPanel_Binding.Register(app);
             Singleton_1_ObjectManager_Binding.Register(app);
             ObjectManager_Binding.Register(app);
+            MainWinPanel_Binding.Register(app);
+            UnityEngine_Component_Binding.Register(app);
+            UnityEngine_UI_InputField_Binding.Register(app);
+            MenuPanel_Binding.Register(app);
             Singleton_1_ConfigerManager_Binding.Register(app);
             ConfigerManager_Binding.Register(app);
             System_Object_Binding.Register(app);

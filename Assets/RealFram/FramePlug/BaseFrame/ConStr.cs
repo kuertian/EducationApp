@@ -10,6 +10,8 @@ public class ConStr
     public const string HOTFIXPANEL =  "HotFixPanel.prefab";
     public const string DEMOPANEL =  "DemoPanel.prefab";
 
+    public const string LANDCHPANEL = "LanchPanel.prefab";
+    public const string MAINPANEL = "MainPanel.prefab";
     //场景名称
     public const string EMPTYSCENE = "Empty";
     public const string MENUSCENE = "Menu";

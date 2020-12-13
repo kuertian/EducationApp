@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Adapter\WindowAdapter.cs" />
     <Compile Include="Assets\GameData\Modle\benghuai\AutoRotation.cs" />
     <Compile Include="Assets\RealFram\FramePlug\ConifigFrame\ConfigerManager.cs" />
     <Compile Include="Assets\RealFram\FramePlug\ConifigFrame\ExcelBase.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="Assets\Scenes\myTest\FScrollPage\FScrollPage.cs" />
     <Compile Include="Assets\Scenes\myTest\FScrollPage\IFScrollItem.cs" />
     <Compile Include="Assets\Scenes\myTest\windowSet.cs" />
-    <Compile Include="Assets\Scripts\Adapter\WindowAdapter.cs" />
     <Compile Include="Assets\Scripts\Data\BuffData.cs" />
     <Compile Include="Assets\Scripts\Data\MonsterData.cs" />
     <Compile Include="Assets\Scripts\Generated\CLRBindingTestClass_Binding.cs" />
@@ -82,7 +82,9 @@
     <Compile Include="Assets\Scripts\Generated\DemoPanel_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\GameMapManager_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\ILRuntimeManager_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\LanchPanel_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\LoadingPanel_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\MainWinPanel_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\MenuPanel_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\MonoSingleton_1_GameStart_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\MonsterBase_Binding.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Assets\Scripts\Generated\TestDelegateMeth_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UIManager_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_Color_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\UnityEngine_Component_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_Debug_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_GameObject_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_Input_Binding.cs" />
@@ -113,6 +116,7 @@
     <Compile Include="Assets\Scripts\Generated\UnityEngine_Time_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_UI_Graphic_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_UI_Image_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\UnityEngine_UI_InputField_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_UI_Slider_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_UI_Text_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_WaitForSeconds_Binding.cs" />
@@ -121,10 +125,11 @@
     <Compile Include="Assets\Scripts\Manager\ILRuntimeManager.cs" />
     <Compile Include="Assets\Scripts\Manager\TestClassBasesAdapter.cs" />
     <Compile Include="Assets\Scripts\UGUI\Item\CommonConfirm.cs" />
-    <Compile Include="Assets\Scripts\UGUI\MyTest\LanchPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Panel\DemoPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Panel\HotFixPanel.cs" />
+    <Compile Include="Assets\Scripts\UGUI\Panel\LanchPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Panel\LoadingPanel.cs" />
+    <Compile Include="Assets\Scripts\UGUI\Panel\MainWinPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Panel\MenuPanel.cs" />
     <Compile Include="Assets\Scripts\UGUI\Window\HotFixUI.cs" />
     <Compile Include="Assets\Scripts\UIFrame\BaseItem.cs" />

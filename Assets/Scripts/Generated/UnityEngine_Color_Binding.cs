@@ -23,8 +23,8 @@ namespace ILRuntime.Runtime.Generated
             Type[] args;
             Type type = typeof(UnityEngine.Color);
             args = new Type[]{};
-            method = type.GetMethod("get_white", flag, null, args, null);
-            app.RegisterCLRMethodRedirection(method, get_white_0);
+            method = type.GetMethod("get_blue", flag, null, args, null);
+            app.RegisterCLRMethodRedirection(method, get_blue_0);
 
             app.RegisterCLRCreateDefaultInstance(type, () => new UnityEngine.Color());
 
@@ -77,13 +77,13 @@ namespace ILRuntime.Runtime.Generated
             }
         }
 
-        static StackObject* get_white_0(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
+        static StackObject* get_blue_0(ILIntepreter __intp, StackObject* __esp, IList<object> __mStack, CLRMethod __method, bool isNewObj)
         {
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             StackObject* __ret = ILIntepreter.Minus(__esp, 0);
 
 
-            var result_of_this_method = UnityEngine.Color.white;
+            var result_of_this_method = UnityEngine.Color.blue;
 
             return ILIntepreter.PushObject(__ret, __mStack, result_of_this_method);
         }

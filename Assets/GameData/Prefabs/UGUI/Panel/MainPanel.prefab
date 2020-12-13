@@ -245,7 +245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &225063917613865104
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3572,7 +3572,7 @@ GameObject:
   - component: {fileID: 8250595026918344380}
   - component: {fileID: 2348260751983701505}
   m_Layer: 5
-  m_Name: Image
+  m_Name: TouXiangImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4731,7 +4731,7 @@ GameObject:
   - component: {fileID: 487069512766947955}
   - component: {fileID: 5477259411647935226}
   m_Layer: 5
-  m_Name: Button
+  m_Name: FullButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7907,7 +7907,7 @@ GameObject:
   - component: {fileID: 1170382627836770850}
   - component: {fileID: 5389663468589266972}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: WindButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8530,7 +8530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7415752882056544315
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8831,7 +8831,7 @@ GameObject:
   - component: {fileID: 3668865586275134934}
   - component: {fileID: 5855458834799208566}
   m_Layer: 5
-  m_Name: InputFieldName
+  m_Name: InputFieldNC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9157,6 +9157,8 @@ GameObject:
   - component: {fileID: 1746534179270376024}
   - component: {fileID: 4043978812355451834}
   - component: {fileID: 3609641547081012797}
+  - component: {fileID: 1682778092642315254}
+  - component: {fileID: 7968577304303824739}
   m_Layer: 5
   m_Name: MainPanel
   m_TagString: Untagged
@@ -9227,6 +9229,82 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1682778092642315254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7757905142301108412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13bc27bf975eef046bf5621bcfdaa92c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LanchPanel: {fileID: 312132152384510834}
+  m_DaTingPanel: {fileID: 7435971955141001107}
+  m_SetPanel: {fileID: 8681697221479637250}
+  m_InformationPanel: {fileID: 8367646400667439147}
+  m_ClassListPanel: {fileID: 956153924603369487}
+  m_ZuoYePanel: {fileID: 7067885523251479770}
+  m_AutoCreatePanel: {fileID: 4533775369636726504}
+  m_ZuoPingListPanel: {fileID: 1665888793621575839}
+  m_SignButton: {fileID: 7158979334897226125}
+  m_LoginButton: {fileID: 3099797083054269570}
+  m_SibmitButton: {fileID: 8380747598141473977}
+  i_SignPanelTips: {fileID: 8792675310781244322}
+  i_LoginPanelTips: {fileID: 3011839672634752415}
+  i_InputFieldName: {fileID: 6614274694059543597}
+  i_InputFieldNamePasswrod: {fileID: 4328024562900573602}
+  m_ZuoYeButton: {fileID: 1121516875207215}
+  m_AutoCreateButton: {fileID: 3494332053667702792}
+  m_TuoZhanClassButton: {fileID: 2638083026923205129}
+  m_CuoTingBenButton: {fileID: 5474121643326434131}
+  m_TouXiangButton: {fileID: 8027407000065471220}
+  m_SetButton: {fileID: 2593414339740861645}
+  m_EnterClassButton: {fileID: 6561224685293425666}
+  m_zuoyeText: {fileID: 3173580801410123243}
+  m_autoText: {fileID: 7146622362479211729}
+  m_classText: {fileID: 560883975624416856}
+  m_cuotibenText: {fileID: 3911699742884146474}
+  m_CloseButton: {fileID: 4804004973784498581}
+  m_ChangeButton: {fileID: 648714008697428718}
+  m_QuitButton: {fileID: 3702646685033819067}
+  m_FullButton: {fileID: 5477259411647935226}
+  m_WindButton: {fileID: 5389663468589266972}
+  m_InfoCloneButton: {fileID: 263522109334408142}
+  m_SaveButton: {fileID: 383973679232132249}
+  m_TouXiangImage: {fileID: 8250595026918344380}
+  m_InputFieldNC: {fileID: 5855458834799208566}
+  m_InputFieldName: {fileID: 3382890709480493181}
+  m_ManToggle: {fileID: 7940286105684780026}
+  m_WomenToggle: {fileID: 2872424613190418116}
+--- !u!114 &7968577304303824739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7757905142301108412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57b28759484e4e4e8c3deb4f5c31f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Rigidbody: {fileID: 0}
+  m_Collider: {fileID: 0}
+  m_AllPoint: []
+  m_AllPointChildCount: 
+  m_AllPointActive: 
+  m_Pos: []
+  m_Scale: []
+  m_Rot: []
+  m_AnchorMax: []
+  m_AnchorMin: []
+  m_Pivot: []
+  m_SizeDelta: []
+  m_AnchoredPos: []
+  m_Particle: []
 --- !u!1 &7895164312030532058
 GameObject:
   m_ObjectHideFlags: 0
@@ -10723,7 +10801,7 @@ GameObject:
   - component: {fileID: 4441304868508486140}
   - component: {fileID: 8380747598141473977}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SubmitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
