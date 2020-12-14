@@ -171,6 +171,10 @@ namespace ILRuntime.Runtime.Generated
             app.RegisterCLRFieldGetter(field, get_i_InputFieldNamePasswrod_36);
             app.RegisterCLRFieldSetter(field, set_i_InputFieldNamePasswrod_36);
             app.RegisterCLRFieldBinding(field, CopyToStack_i_InputFieldNamePasswrod_36, AssignFromStack_i_InputFieldNamePasswrod_36);
+            field = type.GetField("m_LoginTipsText", flag);
+            app.RegisterCLRFieldGetter(field, get_m_LoginTipsText_37);
+            app.RegisterCLRFieldSetter(field, set_m_LoginTipsText_37);
+            app.RegisterCLRFieldBinding(field, CopyToStack_m_LoginTipsText_37, AssignFromStack_m_LoginTipsText_37);
 
 
         }
@@ -1207,6 +1211,35 @@ namespace ILRuntime.Runtime.Generated
             ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
             UnityEngine.UI.InputField @i_InputFieldNamePasswrod = (UnityEngine.UI.InputField)typeof(UnityEngine.UI.InputField).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack));
             ((global::MainWinPanel)o).i_InputFieldNamePasswrod = @i_InputFieldNamePasswrod;
+            return ptr_of_this_method;
+        }
+
+        static object get_m_LoginTipsText_37(ref object o)
+        {
+            return ((global::MainWinPanel)o).m_LoginTipsText;
+        }
+
+        static StackObject* CopyToStack_m_LoginTipsText_37(ref object o, ILIntepreter __intp, StackObject* __ret, IList<object> __mStack)
+        {
+            var result_of_this_method = ((global::MainWinPanel)o).m_LoginTipsText;
+            object obj_result_of_this_method = result_of_this_method;
+            if(obj_result_of_this_method is CrossBindingAdaptorType)
+            {    
+                return ILIntepreter.PushObject(__ret, __mStack, ((CrossBindingAdaptorType)obj_result_of_this_method).ILInstance);
+            }
+            return ILIntepreter.PushObject(__ret, __mStack, result_of_this_method);
+        }
+
+        static void set_m_LoginTipsText_37(ref object o, object v)
+        {
+            ((global::MainWinPanel)o).m_LoginTipsText = (UnityEngine.UI.Text)v;
+        }
+
+        static StackObject* AssignFromStack_m_LoginTipsText_37(ref object o, ILIntepreter __intp, StackObject* ptr_of_this_method, IList<object> __mStack)
+        {
+            ILRuntime.Runtime.Enviorment.AppDomain __domain = __intp.AppDomain;
+            UnityEngine.UI.Text @m_LoginTipsText = (UnityEngine.UI.Text)typeof(UnityEngine.UI.Text).CheckCLRTypes(StackObject.ToObject(ptr_of_this_method, __domain, __mStack));
+            ((global::MainWinPanel)o).m_LoginTipsText = @m_LoginTipsText;
             return ptr_of_this_method;
         }
 

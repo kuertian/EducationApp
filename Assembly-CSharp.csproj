@@ -96,13 +96,24 @@
     <Compile Include="Assets\Scripts\Generated\Singleton_1_ResourceManager_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\Singleton_1_UIManager_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_Action_1_String_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_Collections_Generic_Dictionary_2_String_String_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_Collections_Generic_Dictionary_2_String_String_Binding_Enumerator_Bi.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_Collections_Generic_KeyValuePair_2_String_String_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_Collections_Generic_List_1_Int32_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_Collections_Generic_List_1_MonsterBase_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_IDisposable_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_IO_StreamReader_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_IO_Stream_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_IO_TextReader_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_Int32_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_Net_WebRequest_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_Net_WebResponse_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_NotSupportedException_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_Object_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_Single_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\System_String_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_Text_Encoding_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\System_Text_StringBuilder_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\TestDelegateFunction_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\TestDelegateMeth_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UIManager_Binding.cs" />
@@ -350,6 +361,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>G:/My/Programmer/EducationApp/Assets/GameData/Data/HotFix/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntim.Mono.Cecil">
       <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>

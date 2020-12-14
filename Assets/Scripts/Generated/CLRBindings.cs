@@ -33,6 +33,18 @@ namespace ILRuntime.Runtime.Generated
             LanchPanel_Binding.Register(app);
             Singleton_1_ObjectManager_Binding.Register(app);
             ObjectManager_Binding.Register(app);
+            System_Net_WebRequest_Binding.Register(app);
+            System_Text_StringBuilder_Binding.Register(app);
+            System_Collections_Generic_Dictionary_2_String_String_Binding.Register(app);
+            System_Collections_Generic_Dictionary_2_String_String_Binding_Enumerator_Binding.Register(app);
+            System_Collections_Generic_KeyValuePair_2_String_String_Binding.Register(app);
+            System_IDisposable_Binding.Register(app);
+            System_Text_Encoding_Binding.Register(app);
+            System_Object_Binding.Register(app);
+            System_IO_Stream_Binding.Register(app);
+            System_Net_WebResponse_Binding.Register(app);
+            System_IO_StreamReader_Binding.Register(app);
+            System_IO_TextReader_Binding.Register(app);
             MainWinPanel_Binding.Register(app);
             UnityEngine_Component_Binding.Register(app);
             UnityEngine_UI_InputField_Binding.Register(app);
@@ -40,7 +52,6 @@ namespace ILRuntime.Runtime.Generated
             MenuPanel_Binding.Register(app);
             Singleton_1_ConfigerManager_Binding.Register(app);
             ConfigerManager_Binding.Register(app);
-            System_Object_Binding.Register(app);
             MonsterData_Binding.Register(app);
             System_Collections_Generic_List_1_MonsterBase_Binding.Register(app);
             MonsterBase_Binding.Register(app);

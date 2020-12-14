@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 public class MainWinPanel : MonoBehaviour
 {
+    
+
+    //MainGameObject
     public GameObject m_LanchPanel;
     public GameObject m_DaTingPanel;
     public GameObject m_SetPanel;
@@ -23,7 +27,8 @@ public class MainWinPanel : MonoBehaviour
 
     public InputField i_InputFieldName;
     public InputField i_InputFieldNamePasswrod;
-
+    public Text m_LoginTipsText;
+    private WWWForm www;
     //DatingPanel
     public Button m_ZuoYeButton;
     public Button m_AutoCreateButton;
@@ -77,4 +82,23 @@ public class MainWinPanel : MonoBehaviour
     //ZuoPingListPanel
     public Button m_ZuoPinCloseButton;
     public ScrollRect m_ZuoPinScrollView;
+
+    public IEnumerator LoginPost(string LoginUrl, string Name, string Password)
+    {
+        WWWForm formdata = new WWWForm();
+        formdata.AddField("username", name);
+        formdata.AddField("password", Password);
+        var www = new WWW(LoginUrl, formdata);
+        Debug.Log("访问地址:" + www.url);
+        while (!www.isDone)
+        {
+            yield return null;
+        }
+
+        if (www.error == null)
+        {
+            Debug.LogError(www.text);
+        }
+
+    }
 }

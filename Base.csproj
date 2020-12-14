@@ -69,11 +69,11 @@
     <Compile Include="Assets\RealFram\FramePlug\BaseFrame\MonoSingleton.cs" />
     <Compile Include="Assets\RealFram\FramePlug\BaseFrame\Singleton.cs" />
     <None Include="Assets\RealFram\FramePlug\BaseFrame\Base.asmdef" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -269,6 +269,9 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>G:/My/Programmer/EducationApp/Assets/GameData/Data/HotFix/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntim.Mono.Cecil">
       <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>
