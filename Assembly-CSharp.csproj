@@ -106,6 +106,7 @@
     <Compile Include="Assets\Scripts\Generated\TestDelegateFunction_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\TestDelegateMeth_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UIManager_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\UnityEngine_Application_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_Color_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_Component_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\UnityEngine_Debug_Binding.cs" />

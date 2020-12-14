@@ -54,7 +54,27 @@ public class MainWinPanel : MonoBehaviour
     public InputField m_InputFieldName;
     public Toggle m_ManToggle;
     public Toggle m_WomenToggle;
-    
-    //ClassListPanel
 
+    //ClassListPanel
+    public Text m_TitleText;
+    public GameObject m_Scroll;
+    public GameObject m_Content;
+
+    //ZuoYePanel
+    public Button m_ZuoYeCloseButton;
+    public Button m_ZuoYeChangeClassButton;
+    public Button m_GoClassButton;
+    public Button m_Class1Button;
+
+    public Text m_ZuoYeText;
+
+    //AutoCreatePanel
+    public Button m_AutoCreateCloseButton;
+    public Button m_AutoNewCreateButton;
+    public Button m_AutoExpButton;
+    public ScrollRect m_ScrollView;
+
+    //ZuoPingListPanel
+    public Button m_ZuoPinCloseButton;
+    public ScrollRect m_ZuoPinScrollView;
 }

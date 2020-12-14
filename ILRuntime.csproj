@@ -137,11 +137,11 @@
     <Compile Include="Assets\ILRuntime\Runtime\Stack\StackFrame.cs" />
     <Compile Include="Assets\ILRuntime\Runtime\Stack\StackObject.cs" />
     <None Include="Assets\ILRuntime\ILRuntime.asmdef" />
-    <Reference Include="UnityEditor.UI">
-      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>G:/My/Programmer/EducationApp/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
