@@ -9257,6 +9257,7 @@ MonoBehaviour:
   i_LoginPanelTips: {fileID: 3011839672634752415}
   i_InputFieldName: {fileID: 6614274694059543597}
   i_InputFieldNamePasswrod: {fileID: 4328024562900573602}
+  m_LoginTipsText: {fileID: 0}
   m_ZuoYeButton: {fileID: 1121516875207215}
   m_AutoCreateButton: {fileID: 3494332053667702792}
   m_TuoZhanClassButton: {fileID: 2638083026923205129}

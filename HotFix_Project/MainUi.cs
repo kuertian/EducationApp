@@ -5,7 +5,9 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
-//using LitJson;
+using LitJson;
+using System;
+
 namespace HotFix_Project
 {
     public class MainUi : Window
@@ -102,15 +104,15 @@ namespace HotFix_Project
             //ResourceManager.Instance.AsyncLoadResource("Assets/GameData/UGUI/Test1.png", OnLoadSpriteTest1, LoadResPriority.RES_MIDDLE, true);
 
             //LoadMonsterData();
-            MainInit();
+            MainInit(1);
            
         }
         /// <summary>
         /// MainInit
         /// </summary>
-        public void MainInit()
+        public void MainInit(int data)
         {
-            m_MainWinPanel.m_LanchPanel.SetActive(true);
+            m_MainWinPanel.m_LanchPanel.SetActive(false);
             m_MainWinPanel.m_DaTingPanel.SetActive(false);
             m_MainWinPanel.m_SetPanel.SetActive(false);
             m_MainWinPanel.m_InformationPanel.SetActive(false);
@@ -118,6 +120,36 @@ namespace HotFix_Project
             m_MainWinPanel.m_ZuoYePanel.SetActive(false);
             m_MainWinPanel.m_AutoCreatePanel.SetActive(false);
             m_MainWinPanel.m_ZuoPingListPanel.SetActive(false);
+
+            switch (data)
+            {
+                case 1:
+                    m_MainWinPanel.m_LanchPanel.SetActive(true);
+                    break;
+                case 2:
+                    m_MainWinPanel.m_DaTingPanel.SetActive(true);
+                    break;
+                case 3:
+                    m_MainWinPanel.m_SetPanel.SetActive(true);
+                    break;
+                case 4:
+                    m_MainWinPanel.m_InformationPanel.SetActive(true);
+                    break;
+                case 5:
+                    m_MainWinPanel.m_ClassListPanel.SetActive(true);
+                    break;
+                case 6:
+                    m_MainWinPanel.m_ZuoYePanel.SetActive(true);
+                    break;
+                case 7:
+                    m_MainWinPanel.m_AutoCreatePanel.SetActive(true);
+                    break;
+                case 8:
+                    m_MainWinPanel.m_ZuoPingListPanel.SetActive(true);
+                    break;
+                default:
+                    break;
+            }
         }
 
         /// <summary>
@@ -157,19 +189,30 @@ namespace HotFix_Project
             if (!string.IsNullOrEmpty(result))
             {
                 MainLog(result.ToString());
-                //JsonData jsondata = JsonMapper.ToObject(result);
-                //if (jsondata != null)
-                //{
-                //    bool _result=(bool)jsondata["result"];
-                //    if (_result == true)
-                //    {
-                //        MainLog("登陆成功！");
-                //    }
-                //    else
-                //    { 
-                //        m_MainWinPanel.m_LoginTipsText.text= jsondata["msg"].ToString();
-                //    }
-                //}
+                JsonData jsondata = JsonMapper.ToObject(result);
+                if (jsondata != null)
+                {
+                    bool _result = (bool)jsondata["result"];
+                    if (_result == true)
+                    {
+                        try
+                        {
+                            JsonData data = JsonMapper.ToObject(jsondata["data"].ToString());
+                            string apitoken=data["ApiToken"].ToString();
+                            PlayerPrefs.SetString("ApiToken", apitoken);
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.LogError(ex);
+                        }
+                        MainInit(2);
+                        MainLog("登陆成功！");
+                    }
+                    else
+                    {
+                        m_MainWinPanel.m_LoginTipsText.text = jsondata["msg"].ToString();
+                    }
+                }
             }
 
             MainLog("登陆！"+name+" "+password);
@@ -184,10 +227,12 @@ namespace HotFix_Project
         }
         public void OnZuoYeButton()
         {
+            MainInit(6);
             MainLog("作业！");
         }
         public void OnAutoCreateButton()
         {
+            MainInit(7);
             MainLog("自由创作！");
         }
         public void OnTuoZhanClassButton()

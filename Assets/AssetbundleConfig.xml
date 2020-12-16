@@ -7,9 +7,6 @@
   <ABList Path="Assets/GameData/Prefabs/UGUI/Panel/DemoPanel.prefab" Crc="2962902455" ABName="demopanel" AssetName="DemoPanel.prefab" />
   <ABList Path="Assets/GameData/Data/HotFix/HotFix_Project.dll.bytes" Crc="3378473077" ABName="hotfix" AssetName="HotFix_Project.dll.bytes" />
   <ABList Path="Assets/GameData/Data/HotFix/HotFix_Project.pdb.bytes" Crc="3148422112" ABName="hotfix" AssetName="HotFix_Project.pdb.bytes" />
-  <ABList Path="Assets/GameData/Data/HotFix/LitJson.dll" Crc="877717093" ABName="hotfix" AssetName="LitJson.dll" />
-  <ABList Path="Assets/GameData/Data/HotFix/LitJson.dll.bytes" Crc="3961364302" ABName="hotfix" AssetName="LitJson.dll.bytes" />
-  <ABList Path="Assets/GameData/Data/HotFix/UnityEngine.dll" Crc="1832967752" ABName="hotfix" AssetName="UnityEngine.dll" />
   <ABList Path="Assets/GameData/Data/HotFix/UnityEngine.dll.bytes" Crc="4111087681" ABName="hotfix" AssetName="UnityEngine.dll.bytes" />
   <ABList Path="Assets/GameData/Data/HotFix/UnityEngine.xml" Crc="1634186525" ABName="hotfix" AssetName="UnityEngine.xml" />
   <ABList Path="Assets/GameData/Prefabs/UGUI/Panel/Image.prefab" Crc="1930525020" ABName="image" AssetName="Image.prefab" />

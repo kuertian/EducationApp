@@ -282,9 +282,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="LitJson">
-      <HintPath>G:/My/Programmer/EducationApp/Assets/GameData/Data/HotFix/LitJson.dll</HintPath>
-    </Reference>
     <Reference Include="ILRuntim.Mono.Cecil">
       <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>
     </Reference>

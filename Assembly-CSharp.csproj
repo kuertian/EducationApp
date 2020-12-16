@@ -66,6 +66,15 @@
   <ItemGroup>
     <Compile Include="Assets\Adapter\WindowAdapter.cs" />
     <Compile Include="Assets\GameData\Modle\benghuai\AutoRotation.cs" />
+    <Compile Include="Assets\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\LitJson\JsonData.cs" />
+    <Compile Include="Assets\LitJson\JsonException.cs" />
+    <Compile Include="Assets\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\LitJson\Lexer.cs" />
+    <Compile Include="Assets\LitJson\ParserToken.cs" />
     <Compile Include="Assets\RealFram\FramePlug\ConifigFrame\ConfigerManager.cs" />
     <Compile Include="Assets\RealFram\FramePlug\ConifigFrame\ExcelBase.cs" />
     <Compile Include="Assets\RealFram\FramePlug\GameStart.cs" />
@@ -83,6 +92,8 @@
     <Compile Include="Assets\Scripts\Generated\GameMapManager_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\ILRuntimeManager_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\LanchPanel_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\LitJson_JsonData_Binding.cs" />
+    <Compile Include="Assets\Scripts\Generated\LitJson_JsonMapper_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\LoadingPanel_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\MainWinPanel_Binding.cs" />
     <Compile Include="Assets\Scripts\Generated\MenuPanel_Binding.cs" />
@@ -361,9 +372,6 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="LitJson">
-      <HintPath>G:/My/Programmer/EducationApp/Assets/GameData/Data/HotFix/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntim.Mono.Cecil">
       <HintPath>G:/My/Programmer/EducationApp/Assets/ILRuntime/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>

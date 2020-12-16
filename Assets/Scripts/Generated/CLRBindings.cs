@@ -48,6 +48,8 @@ namespace ILRuntime.Runtime.Generated
             MainWinPanel_Binding.Register(app);
             UnityEngine_Component_Binding.Register(app);
             UnityEngine_UI_InputField_Binding.Register(app);
+            LitJson_JsonMapper_Binding.Register(app);
+            LitJson_JsonData_Binding.Register(app);
             UnityEngine_Application_Binding.Register(app);
             MenuPanel_Binding.Register(app);
             Singleton_1_ConfigerManager_Binding.Register(app);
